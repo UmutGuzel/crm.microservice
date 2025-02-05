@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: product-service
+  data:
+    mongodb:
+      uri: mongodb://localhost:27019/crm
+      username: mongouser
+      password: mongopassword
+      authentication-database: admin
+server:
+    port: 8085
