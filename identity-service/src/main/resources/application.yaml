@@ -14,3 +14,10 @@ spring:
       ddlAuto: update
 server:
   port: 8082
+
+eureka:
+  client:
+    service-url:
+      defaultZone: "http://localhost:8888/eureka/"
+    register-with-eureka: true
+    fetch-registry: true
