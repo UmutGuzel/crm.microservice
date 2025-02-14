@@ -18,31 +18,31 @@
 -docencoding
 'UTF-8'
 -doctitle
-'common-t 1.0-SNAPSHOT API'
+'common-t 1.0 API'
 -use
 -version
 -windowtitle
-'common-t 1.0-SNAPSHOT API'
+'common-t 1.0 API'
 com.turkcell
 'C:/Users/Umut/IdeaProjects/crm.microservices/common-t/src/main/java/com/turkcell/Main.java'
 C:\Users\Umut\IdeaProjects\crm.microservices\common-t\src\main\java = 1739549399171
-C:\Users\Umut\IdeaProjects\crm.microservices\common-t\target\generated-sources\annotations = 1739552089792
-C:\Users\Umut\IdeaProjects\crm.microservices\common-t\target\apidocs\allclasses-index.html = 1739552092223
-C:\Users\Umut\IdeaProjects\crm.microservices\common-t\target\apidocs\allpackages-index.html = 1739552092225
-C:\Users\Umut\IdeaProjects\crm.microservices\common-t\target\apidocs\copy.svg = 1739552092244
-C:\Users\Umut\IdeaProjects\crm.microservices\common-t\target\apidocs\element-list = 1739552092187
-C:\Users\Umut\IdeaProjects\crm.microservices\common-t\target\apidocs\help-doc.html = 1739552092240
-C:\Users\Umut\IdeaProjects\crm.microservices\common-t\target\apidocs\index-all.html = 1739552092233
-C:\Users\Umut\IdeaProjects\crm.microservices\common-t\target\apidocs\index.html = 1739552092237
-C:\Users\Umut\IdeaProjects\crm.microservices\common-t\target\apidocs\link.svg = 1739552092245
-C:\Users\Umut\IdeaProjects\crm.microservices\common-t\target\apidocs\member-search-index.js = 1739552092227
-C:\Users\Umut\IdeaProjects\crm.microservices\common-t\target\apidocs\module-search-index.js = 1739552092226
-C:\Users\Umut\IdeaProjects\crm.microservices\common-t\target\apidocs\overview-tree.html = 1739552092212
-C:\Users\Umut\IdeaProjects\crm.microservices\common-t\target\apidocs\package-search-index.js = 1739552092226
-C:\Users\Umut\IdeaProjects\crm.microservices\common-t\target\apidocs\script.js = 1739552092243
-C:\Users\Umut\IdeaProjects\crm.microservices\common-t\target\apidocs\search-page.js = 1739552092249
-C:\Users\Umut\IdeaProjects\crm.microservices\common-t\target\apidocs\search.html = 1739552092234
-C:\Users\Umut\IdeaProjects\crm.microservices\common-t\target\apidocs\search.js = 1739552092248
-C:\Users\Umut\IdeaProjects\crm.microservices\common-t\target\apidocs\stylesheet.css = 1739552092242
-C:\Users\Umut\IdeaProjects\crm.microservices\common-t\target\apidocs\tag-search-index.js = 1739552092228
-C:\Users\Umut\IdeaProjects\crm.microservices\common-t\target\apidocs\type-search-index.js = 1739552092227
+C:\Users\Umut\IdeaProjects\crm.microservices\common-t\target\generated-sources\annotations = 1739553276322
+C:\Users\Umut\IdeaProjects\crm.microservices\common-t\target\apidocs\allclasses-index.html = 1739553278651
+C:\Users\Umut\IdeaProjects\crm.microservices\common-t\target\apidocs\allpackages-index.html = 1739553278653
+C:\Users\Umut\IdeaProjects\crm.microservices\common-t\target\apidocs\copy.svg = 1739553278671
+C:\Users\Umut\IdeaProjects\crm.microservices\common-t\target\apidocs\element-list = 1739553278617
+C:\Users\Umut\IdeaProjects\crm.microservices\common-t\target\apidocs\help-doc.html = 1739553278667
+C:\Users\Umut\IdeaProjects\crm.microservices\common-t\target\apidocs\index-all.html = 1739553278661
+C:\Users\Umut\IdeaProjects\crm.microservices\common-t\target\apidocs\index.html = 1739553278664
+C:\Users\Umut\IdeaProjects\crm.microservices\common-t\target\apidocs\link.svg = 1739553278671
+C:\Users\Umut\IdeaProjects\crm.microservices\common-t\target\apidocs\member-search-index.js = 1739553278656
+C:\Users\Umut\IdeaProjects\crm.microservices\common-t\target\apidocs\module-search-index.js = 1739553278654
+C:\Users\Umut\IdeaProjects\crm.microservices\common-t\target\apidocs\overview-tree.html = 1739553278637
+C:\Users\Umut\IdeaProjects\crm.microservices\common-t\target\apidocs\package-search-index.js = 1739553278655
+C:\Users\Umut\IdeaProjects\crm.microservices\common-t\target\apidocs\script.js = 1739553278670
+C:\Users\Umut\IdeaProjects\crm.microservices\common-t\target\apidocs\search-page.js = 1739553278674
+C:\Users\Umut\IdeaProjects\crm.microservices\common-t\target\apidocs\search.html = 1739553278663
+C:\Users\Umut\IdeaProjects\crm.microservices\common-t\target\apidocs\search.js = 1739553278673
+C:\Users\Umut\IdeaProjects\crm.microservices\common-t\target\apidocs\stylesheet.css = 1739553278669
+C:\Users\Umut\IdeaProjects\crm.microservices\common-t\target\apidocs\tag-search-index.js = 1739553278657
+C:\Users\Umut\IdeaProjects\crm.microservices\common-t\target\apidocs\type-search-index.js = 1739553278655
