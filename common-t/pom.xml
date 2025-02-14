@@ -6,7 +6,7 @@
 
     <groupId>io.github.umutguzel</groupId>
     <artifactId>common-t</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <description>GYGY 4.0 microservice project, common</description>
 
     <properties>
@@ -32,8 +32,8 @@
     </licenses>
 
     <scm>
-        <url>https://github.com/UmutGuzel/crm.microservice.git</url>
-        <connection>scm:git:git://github.com/UmutGuzel/crm.microservice.git</connection>
+        <url>https://github.com/UmutGuzel/crm.microservice</url>
+        <connection>scm:git:git://github.com/UmutGuzel/crm.microservice</connection>
     </scm>
 
     <distributionManagement>
