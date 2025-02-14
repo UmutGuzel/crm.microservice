@@ -9,9 +9,8 @@
         <module name="gateway-server" />
         <module name="discovery-server" />
         <module name="common" />
-        <module name="common-t" />
       </profile>
-      <profile name="Annotation profile for product-service" enabled="true">
+      <profile name="Annotation profile for customer-service" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -24,11 +23,12 @@
         <module name="product-service" />
         <module name="cart-service" />
         <module name="order-service" />
-        <module name="identity-service" />
         <module name="customer-service" />
+        <module name="identity-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="common-t" target="21" />
       <module name="notification-service" target="21" />
     </bytecodeTargetLevel>
   </component>

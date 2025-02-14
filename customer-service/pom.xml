@@ -125,9 +125,9 @@
         </dependency>
 
         <dependency>
-            <groupId>com.turkcell</groupId>
+            <groupId>io.github.umutguzel</groupId>
             <artifactId>common</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>1.0</version>
         </dependency>
     </dependencies>
 
