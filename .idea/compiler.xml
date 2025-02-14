@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="common" />
         <module name="gateway-server" />
         <module name="discovery-server" />
+        <module name="common" />
+        <module name="common-t" />
       </profile>
-      <profile name="Annotation profile for customer-service" enabled="true">
+      <profile name="Annotation profile for product-service" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -23,8 +24,8 @@
         <module name="product-service" />
         <module name="cart-service" />
         <module name="order-service" />
-        <module name="customer-service" />
         <module name="identity-service" />
+        <module name="customer-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
