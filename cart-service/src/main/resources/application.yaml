@@ -1,20 +1,10 @@
 spring:
+  profiles:
+    active: dev
   autoconfigure:
     exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
   application:
     name: cart-service
-  data:
-    mongodb:
-      uri: mongodb://localhost:27018/crm
-      username: mongouser
-      password: mongopassword
-      authentication-database: admin
+
 server:
   port: 8080
-
-eureka:
-  client:
-    service-url:
-      defaultZone: "http://localhost:8888/eureka/"
-    register-with-eureka: true
-    fetch-registry: true

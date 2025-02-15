@@ -1,0 +1,13 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://product-service:27019/crm
+      username: mongouser
+      password: mongopassword
+      authentication-database: admin
+eureka:
+  client:
+    service-url:
+      defaultZone: "http://discovery-server-app:8888/eureka/"
+    register-with-eureka: true
+    fetch-registry: true

@@ -73,6 +73,62 @@ services:
       - KAFKA_AUTO_CREATE_TOPICS_ENABLE=true
       - BITNAMI_DEBUG=yes
       - KAFKA_CFG_NUM_PARTITIONS=2
+  cart-service:
+    image: cart-service
+    container_name: cart_service-app
+    ports:
+      - "8080:8080"
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+  customer-service:
+    image: customer-service
+    container_name: customer_service-app
+    ports:
+      - "8081:8081"
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+  discovery-server:
+    image: discovery-server
+    container_name: discovery-server-app
+    ports:
+      - "8088:8088"
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+  gateway-server:
+    image: gateway-server
+    container_name: gateway-server-app
+    ports:
+      - "8090:8090"
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+  identity-service:
+    image: identity-service
+    container_name: identity-service-app
+    ports:
+      - "8082:8082"
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+  notification-service:
+    image: notification-service
+    container_name: notification-service-app
+    ports:
+      - "8083:8083"
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+  order-service:
+    image: order-service
+    container_name: order-service-app
+    ports:
+      - "8084:8084"
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+  product-service:
+    image: product-service
+    container_name: product-service-app
+    ports:
+      - "8085:8085"
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
 volumes:
   order_service_data:
   identity_service_data:

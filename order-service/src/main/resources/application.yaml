@@ -1,10 +1,8 @@
 spring:
+  profiles:
+    active: dev
   application:
     name: order-service
-  datasource:
-    url: "jdbc:postgresql://localhost:5433/crm"
-    username: myuser
-    password: mypassword
   jpa:
     properties:
       hibernate:
@@ -14,10 +12,3 @@ spring:
       ddlAuto: update
 server:
   port: 8084
-
-eureka:
-  client:
-    service-url:
-      defaultZone: "http://localhost:8888/eureka/"
-    register-with-eureka: true
-    fetch-registry: true

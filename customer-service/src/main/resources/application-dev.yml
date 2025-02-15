@@ -1,0 +1,11 @@
+datasource:
+  url: jdbc:mysql://localhost:3307/mydatabase?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+  username: myuser
+  password: mypassword
+  driver-class-name: com.mysql.cj.jdbc.Driver
+eureka:
+  client:
+    service-url:
+      defaultZone: "http://localhost:8888/eureka/"
+    register-with-eureka: true
+    fetch-registry: true
