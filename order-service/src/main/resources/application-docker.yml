@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: "jdbc:postgresql://order-service:5433/crm"
+    username: myuser
+    password: mypassword
+eureka:
+  client:
+    service-url:
+      defaultZone: "http://discovery-server-app:8888/eureka/"
+    register-with-eureka: true
+    fetch-registry: true
