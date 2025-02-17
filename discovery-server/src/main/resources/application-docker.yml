@@ -1,6 +1,6 @@
 eureka:
   instance:
-    hostname: "localhost"
+    hostname: "discovery-server-app"
   client:
     serviceUrl:
       defaultZone: "http://discovery-server-app:8888/eureka/"
