@@ -1,10 +1,10 @@
 spring:
   data:
     mongodb:
-      uri: mongodb://localhost:27019/crm
-      username: mongouser
-      password: mongopassword
-      authentication-database: admin
+      uri: mongodb://mongouser:mongopassword@localhost:27019/crm?authSource=admin
+#      username: mongouser
+#      password: mongopassword
+#      authentication-database: admin
 eureka:
   client:
     service-url:

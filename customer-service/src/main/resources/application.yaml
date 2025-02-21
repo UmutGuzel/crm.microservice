@@ -3,11 +3,13 @@ spring:
     active: dev
   application:
     name: customer-service
-    jpa:
-      database-platform: org.hibernate.dialect.MySQL8Dialect
+  jpa:
+    properties:
       hibernate:
-        ddl-auto: update
-      show-sql: true
+      dialect: org.hibernate.dialect.MySQL8Dialect
+    showSql: true
+    hibernate:
+      ddlAuto: update
 server:
   port: 8081
 
