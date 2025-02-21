@@ -1,7 +1,7 @@
 spring:
   data:
     mongodb:
-      uri: mongodb://product-service:27019/crm
+      uri: mongodb://mongouser:mongopassword@product-service:27019/crm?authSource=admin
       username: mongouser
       password: mongopassword
       authentication-database: admin
