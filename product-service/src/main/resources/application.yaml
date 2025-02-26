@@ -1,9 +1,10 @@
+configurl: http://localhost:8079
 spring:
-  profiles:
-    active: dev
-  autoconfigure:
-    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
   application:
-    name: product-service
-server:
-    port: 8085
+    name: "order-service"
+  cloud:
+    config:
+      profile: dev
+  config:
+      import: configserver:${configurl}
+
