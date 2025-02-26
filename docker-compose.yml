@@ -138,9 +138,23 @@ services:
     ports:
       - "8085:8085"
     environment:
-      SPRING_PROFILES_ACTIVE: docker
+      SPRING_APPLICATION_CLOUD_PROFILE: prod
+      CONFIGURL: "http://config-server:8079"
     depends_on:
-      - discovery-server
+      config-server:
+          condition: service_healthy
+
+  config-server:
+    image: config-server
+    container_name: config-server-app
+    ports:
+      - "8079:8079"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8079/actuator/health"]
+      interval: 10s
+      retries: 5
+      start_period: 10s
+      timeout: 5s
 volumes:
   order_service_data:
   identity_service_data:
